@@ -1,0 +1,98 @@
+/*LOGIN*/
+.MainLog_desing{
+    width: 40%;
+    min-height: 100vh;
+    background-color: var(--blue-600);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+}
+.MainLog_desing-header{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    padding: 0px 30px;
+    margin: 10px 0px;
+}
+.MainLog_desing-header h1{
+    font-weight: 500 !important;
+    color: white;
+}
+.MainLog_desing-logo{
+    width: 50px;
+    border-radius: 8px;
+}
+.MainLog_desing-ilustracion{
+    margin-top: 100px;
+}
+.MainLog_form{
+    width: 60%;
+    min-height: 100vh;
+    padding: 3% 8%;
+}
+.MainLog_Form-head{
+    width: 100%;
+}
+.MainLog_Form-head small{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.MainLog_Form-head h1{
+    font-weight: 500;
+    color: var(--gray-500);
+    margin-top: 20px;
+}
+.MainLog_Form-Box {
+    margin: 30px 0px 0px 0px;
+    
+}
+.MainLog_Form-Box input{
+    width: 85%;
+    padding-left: 40px;
+}
+.icons_input{
+    top: 10px;
+    left: 10px;
+    color: var(--gray-300);
+}
+.btn-IniciarSession{
+    margin-top: 20px !important;
+    margin-bottom: 15px !important;
+}
+/*Registro*/
+.MainSelect{
+    justify-content: space-between;
+    text-align: center;
+    margin: 25px 0px;
+}
+.MainSelect-box img{
+    filter: drop-shadow(var(--shadow-blue-700));
+    transition: all .3s ease;
+    margin-bottom: 10px;
+}
+.MainSelect-box img:hover{
+    filter: drop-shadow(var(--shadow-blue-800));
+}
+.MainRegistro_Steps{
+    color: var(--green-500);
+    display: block;
+    font-size: 19px;
+    margin-top: 8px;
+    margin-bottom: 9px;
+    font-weight: bold;
+}
+.MainRegistro_Steps-input_foto label{
+    padding: 15px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 3px;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;;
+}
+.MainRegistro_Steps-input_foto label svg{
+    width: 80px;
+    color: rgb(197, 197, 197);
+}

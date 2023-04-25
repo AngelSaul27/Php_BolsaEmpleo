@@ -1,0 +1,114 @@
+/*----------------------------------------------------------------*/
+/*                          OFERTAS                               */
+/*----------------------------------------------------------------*/
+.container_oferta{
+    padding: 1% 3%;
+    margin-bottom: 50px;
+}
+.oferta_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.ofeta_main-item{
+    background-color: white;
+    border-radius: 4px;
+    padding: 15px 10px;
+    box-shadow: rgba(63, 63, 63, 0.35) 0px 5px 15px;
+    border-left: 5px solid #021b2b;
+    min-height: 100px;
+    transition: all .3s ease;
+}
+.ofeta_main-item:hover{
+    transform: translateY(-3px);
+}
+.oferta_main-item-header{
+    display: flex;
+    flex-direction: column;
+}
+.oferta_main-item-header small{
+    color: dimgrey;
+    font-size: 13px;
+}
+.oferta_main-item-header h3{
+    color: #494949;
+    font-weight: 400;
+    margin: 2px 0px;
+}
+.oferta_main-item-header span{
+    color: dimgrey;
+    font-size: 16px;
+}
+.oferta_main-item-body{
+    min-width: 500px;
+    max-width: 600px;
+}
+.oferta_main-item-body p{
+    color: dimgrey;
+    font-weight: 300;
+    font-size: 13px;
+    margin: 8px 0px;
+}
+.oferta_main-item-footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 14px 0px 5px 0px;
+}
+.oferta_main-item-footer > div{
+    align-items: center;
+}
+.oferta_main-item-footer small{
+    color: dimgray;
+    font-size: 12px;
+}
+.oferta_main-item-footer span{
+    color: #494949;
+    font-size: 14px;
+    font-weight: 500;
+}
+.vw_oferta_header{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(180deg, #074469 0, #074469 25%, #063857 50%, #042d47 75%, #021b2b 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.vw_oferta_back,.padding_default{
+    padding: 1% 3%;
+}
+.vw_oferta_header h1{
+    font-weight: 600;
+}
+.vw_oferta_header h2{
+    font-weight: 500;
+    margin: 5px 0px;
+}
+.vw_oferta_header h3{
+    font-weight: 300;
+    font-size: 17px;
+    margin: 5px 0px;
+}
+.vw_oferta_body{
+    display: flex;
+}
+.vw_oferta_body > div{
+    width: 50%;
+}
+.vw_oferta_form{
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    max-width: 350px;
+    min-width: 300px;
+    height: max-content;
+    background-color: white;
+    border-radius: 4px;
+    padding: 15px 10px;
+    box-shadow: rgba(94, 94, 94, 0.35) 0px 5px 15px;
+}
